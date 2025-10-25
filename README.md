@@ -25,6 +25,11 @@ Rename `.env.example' to '.env'
 cp .env.example .env
 ```
 
+Run Composer:
+```bash
+composer install
+```
+
 Generate app-key:
 ```
 php artisan key:generate
@@ -44,9 +49,9 @@ DB_DATABASE=/absolute/path/to/database/database.sqlite
 Install dependency:
 
 ```bash
-composer install
 npm install
-npm run dev
+npm run build
+npm run dev 
 ```
 
 Run Migrations:
