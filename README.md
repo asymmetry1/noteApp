@@ -4,11 +4,11 @@ Laravel-based note-taking app.
 
 ![Demo Image](https://i.imgur.com/MKbubtS.png)
 
-## Prerequisites:
-- Laravel
-- npm
-- PHP
-- Composer
+## Prerequisites (Harus udah install ini):
+- [Laravel](https://laravel.com/docs)
+- [PHP](https://www.php.net/downloads) >= 8.1
+- [Composer](https://getcomposer.org/)
+- [Node.js & npm](https://nodejs.org/en/download/)
 
 ## Quick Setup:
 
