@@ -7,15 +7,15 @@
   <div class="grid grid-cols-3 gap-6">
     <div class="p-4 bg-white rounded shadow">
       <div class="text-gray-500 text-sm">Total Notes</div>
-      <div class="text-2xl font-bold">{{ $total }}</div>
+      <div class="text-2xl font-bold">{{ $totalNotes }}</div>
     </div>
     <div class="p-4 bg-white rounded shadow">
       <div class="text-gray-500 text-sm">Pinned Notes</div>
-      <div class="text-2xl font-bold">{{ $pinned }}</div>
+      <div class="text-2xl font-bold">{{ $pinnedNotes }}</div>
     </div>
     <div class="p-4 bg-white rounded shadow">
       <div class="text-gray-500 text-sm">In Trash</div>
-      <div class="text-2xl font-bold">{{ $trashed }}</div>
+      <div class="text-2xl font-bold">{{ $deletedNotes }}</div>
     </div>
   </div>
 </div>
