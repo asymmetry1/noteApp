@@ -2,7 +2,7 @@
 
 Laravel-based note-taking app.
 
-![Demo Image](https://imgur.com/a/o7qvtpf)
+![Demo Image](https://i.imgur.com/MKbubtS.png)
 
 ## Prerequisites:
 - Laravel
