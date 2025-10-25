@@ -2,6 +2,8 @@
 
 Laravel-based note-taking app.
 
+![Demo Image](https://imgur.com/a/o7qvtpf)
+
 ## Prerequisites:
 - Laravel
 - npm
@@ -56,3 +58,8 @@ Start Server:
 ```bash
 php artisan serve
 ```
+
+### Need Fix:
+
+- Add register in login menu.
+- dan lain-lain.
