@@ -13,7 +13,14 @@ class TagController extends Controller
     }
 
     public function store(Request $r) {
-        $r->validate(['name' => 'required|string|unique:tags,name']);
+        $data = $r->validate([
+            'name' => [
+                'required',
+                'string',
+                // Unique per user
+                Rule::unique('tags', 'name')->where('user_id', auth()->id()),
+            ],
+        ]);
 
         Tag::create([
             'name' => $data['name'],
