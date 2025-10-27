@@ -12,8 +12,10 @@ class SettingsController extends Controller
     }
 
     public function toggleTheme() {
-        $theme = Session::get('theme', 'light') === 'light' ? 'dark' : 'light';
-        Session::put('theme', $theme);
+        $current = Session::get('theme', 'light');
+        $new = $current === 'light' ? 'dark' : 'light';
+        Session::put('theme', $new);
+
         return back();
     }
 }
