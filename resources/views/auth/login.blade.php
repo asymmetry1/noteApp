@@ -39,9 +39,17 @@
                 </a>
             @endif
 
-            <x-primary-button class="ms-3">
-                {{ __('Log in') }}
-            </x-primary-button>
+            <div class="flex gap-3 ms-3">
+                <x-primary-button>
+                    {{ __('Log in') }}
+                </x-primary-button>
+
+                <a href="{{ route('register') }}">
+                    <x-secondary-button type="button">
+                        {{ __('Register') }}
+                    </x-secondary-button>
+                </a>
+            </div>
         </div>
     </form>
 </x-guest-layout>

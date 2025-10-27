@@ -16,7 +16,7 @@ class NoteController extends Controller
             ->latest()
             ->get();
 
-        $tags = Tag::all();
+        $tags = Tag::where('user_id', auth()->id())->get();
 
         return view('notes.index', compact('notes', 'tags'));
     }
